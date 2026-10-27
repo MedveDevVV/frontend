@@ -2,7 +2,7 @@ import {useState} from 'react'
 import './App.css'
 
 function App() {
-    const API_URL = "http://localhost:8080/api";
+    const API_URL = "/api";
     const [text, setText] = useState('')
     const [result, setResult] = useState('')
 
